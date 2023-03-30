@@ -47,4 +47,4 @@ elif [ ${UBUNTU_VER} = '18.04' ] || [ ${UBUNTU_VER} = '20.04' ]; then
   		-DBoost_NO_BOOST_CMAKE=1 ..
 fi
 make -j `nproc`
-sudo make install
+make install

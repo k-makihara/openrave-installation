@@ -25,4 +25,4 @@ cd fcl; git reset --hard 0.5.0
 mkdir build; cd build
 cmake .. -DFCL_BUILD_TESTS=OFF
 make -j `nproc`
-sudo make install
+make install

@@ -32,5 +32,5 @@ elif [ ${UBUNTU_VER} = '16.04' ] || [ ${UBUNTU_VER} = '18.04' ] || [ ${UBUNTU_VE
   cmake -DDESIRED_QT_VERSION=4 ..
 fi
 make -j `nproc`
-sudo make install
-sudo make install_ld_conf
+make install
+make install_ld_conf
